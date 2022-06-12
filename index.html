@@ -1,14 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adriano Martiliano</title>
+	<title>Projeto 01</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="palavras-chave,do,meu,site">
+	<meta name="description" content="Descrição do meu website">
+	<meta charset="utf-8" />
 </head>
 <body>
-    <h1>Olá, mundo!!</h1>
-    <a href="teste.php">PHP</a>
-    <a href="sobre.html">Sobre</a>
+
+	<header>
+		<div class="center">
+			<div class="logo"><a href="/">Logomarca</a></div><!--logo-->
+			<nav class="desktop">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="depoimentos">Depoimentos</a></li>
+					<li><a href="servicos">Serviços</a></li>
+					<li><a href="contato">Contato</a></li>
+				</ul>
+			</nav>
+			 <nav class="mobile right">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Depoimentos</a></li>
+					<li><a href="">Serviços</a></li>
+					<li><a href="contato">Contato</a></li>
+				</ul>
+			</nav>
+		</div><!--center-->
+	</header>
+
+	<section class="banner-principal">
+		<div class="center">
+			<form>
+				<h2>Qual o seu melhor email?</h2>
+				<input type="email" name="email">
+				<input type="submit" name="acao" value="Cadastrar">
+			</form>
+		</div>
+	</section>
+
+	<section class="descricao-autor">
+		<div class="center">
+			<div class="w50">
+				<h2>Adriano Martiliano</h2>
+				<p>
+					Texto
+				</p>
+			</div>
+			<div class="w50">
+				<img src="_images/foto.jpg">
+			</div>
+		</div>	
+	</section>
+
+	<section class="especialidades">
+		<h2 class="title">Especialidades</h2>
+		<div class="center">
+			<div class="box-especialidade">
+				<h3>Icone 1</h3>
+				<h4>CSS3</h4>
+				<p>Texto CSS</p>
+			</div><!--box-especialidade-->
+
+			<div class="box-especialidade">
+				<h3>Icone 2</h3>
+				<h4>HTML 5</h4>
+				<p>Texto HTML5</p>
+			</div><!--box-especialidade-->
+
+			<div class="box-especialidade">
+				<h3>Icone 3</h3>
+				<h4>Javascript</h4>
+				<p>Texto JavaScript</p>
+			</div><!--box-especialidade-->
+		</div>
+	</section>
+
+	<section class="extras">
+		<div class="center">
+			<div class="w50 depoimentos-container">
+				<h2 class="title">Depoimentos dos nossos clientes</h2>
+				
+				<div class="depoimento-single">
+					<p class="depoimento-descricao">
+						Texto - Depoimentos
+					</p>
+					<p class="nome-autor">Lorem ipsum</p>
+				</div><!--depoimento-single-->
+			</div><!--w50-->
+
+			<div id="servicos" class="w50 left servicos-container">
+				<h2 class="title">Serviços</h2>
+				<div class="servicos">
+					<ul>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					</ul>
+				</div><!--servicos-->
+			</div><!--w50-->
+		</div><!--center-->
+	</section><!--extras-->
+
+	<footer>
+		<div class="center">
+			<p>Todos os direitos reservados!</p>
+		</div>
+	</footer>
 </body>
 </html>
