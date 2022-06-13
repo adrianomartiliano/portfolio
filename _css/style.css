@@ -1,0 +1,30 @@
+
+/*
+.color1 { #ffab07 };
+.color2 { #e9d558 };
+.color3 { #72ad75 };
+.color4 { #0e8d94 };
+.color5 { #434d53 };
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.center {
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+.w33{ width: 33%;}
+.w50{ width: 50%;}
+.left{ float: left;}
+.right{ float: right;}
+.clear{ clear: both;}
+
+header{
+    background-color: #ffab07;
+}
+.mobile {
+    display: none;
+}
