@@ -42,13 +42,64 @@
 		form {text-align: center;}
 
 		.ocultar {display: none;}
+		section.banner-principal{
+			width: 100%;
+			height: 600px;
+			background-image: url('../images/startup-594090_1920.jpg');
+			background-size: cover;
+			position: relative;
+		}
+		div.opacidade{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			background-color: rgba(51, 51, 51, 0.5);
+		}
 
+		section.banner-principal form{
+			max-width: 500px;
+			z-index: 2; /*Usado para trazer o elemento para cima na exibição*/
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform:translate(-50%, -50%);
+			-ms-transform:translate(-50%, -50%); /*Técnica usada para centralizar na tela de forma responsiva*/
+		}
+		section.banner-principal form h2{
+			color: white;
+			font-weight: 300;
+			font-size: 35px;
+		}
+		section.banner-principal form input[type=email]{
+			width: 100%;
+			height: 66px;
+			margin-top: 15px;
+			background-color: white;
+			color: white;
+			font-size: 22px;
+			padding-left: 15px;
+			border-color: white;
+			border-radius: 8px;
+		}
+		section.banner-principal form input[type=submit]{
+			width: 100%;
+			height: 66px;
+			margin-top: 15px;
+			background-color: #ffab07;
+			color: white;
+			font-size: 22px;
+			padding-left: 15px;
+			border-color: #ffab07;
+			border-radius: 8px;
+		}
 
 		footer{background-color: #ffab07; 
 			position: absolute;
 			width: 100%;
 			bottom: 0;
 			text-align: center;
-
 			line-height: 50px;
 		}
