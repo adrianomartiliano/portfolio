@@ -36,6 +36,11 @@
 			text-transform: uppercase;
 			font-size: 15px;
 		}
+		nav.desktop li:hover{
+			background-color: aliceblue;
+			transition: 0.5s;
+			border-radius: 4px;
+		}
 		.logo img {width: 200px; padding: 0;}
 		nav.desktop a{color: #434d53; text-decoration: none;}
 		.banner-principal{padding: 100px 0;}
@@ -94,6 +99,7 @@
 			padding-left: 15px;
 			border-color: #ffab07;
 			border-radius: 8px;
+			cursor: pointer;
 		}
 
 		footer{background-color: #ffab07; 
